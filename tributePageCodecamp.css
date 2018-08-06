@@ -1,0 +1,176 @@
+body{
+   background-color: #E8E9CF; 
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+}
+#img-div{
+    
+    
+    margin: 0;
+    border: 1px solid #E8E9CF;
+    margin: 0 auto;
+    
+
+}
+
+#title{
+    
+    margin: 0; 
+    background-color: #CDD4AE;  
+}
+
+.first-area{
+    text-align: left;
+
+}
+
+
+
+p,li{
+    text-align: left;
+}
+nav {
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  nav span{
+    font-size:20px;
+    border: 2px solid #6D7A6B;
+    padding: 20px 40px;
+    margin: 0 5px;
+    background-color: #CDD4AE;
+  
+  }
+  
+  nav span:hover {
+      background-color: #BCD3B4;
+  }
+  
+  nav a{
+      color:#6D7A6B;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+  }
+blockquote p{
+    text-align: center;
+}
+blockquote {
+    border: 2px solid #6D7A6B ;
+    background-color: #CDD4AE;
+}
+h3{
+    color:#5E615F;
+    border-bottom: 2px solid #5E615F;
+    margin: 0 auto;
+}
+.text-area{
+    background-color: #C1BBBC;
+}
+.text-area h2{
+    background-color: #839B79;
+}
+#tribute-link{
+    background-color: #BCD3B4;
+    font-size: 25px;
+}
+
+@media (max-width:1200px) {
+    img{
+        width:80%;
+    }
+}
+
+@media (max-width:680px) {
+    body{
+        font-size: 18px;
+    }
+    nav span{
+        font-size: 20px;
+        padding: 20px 30px;
+        margin: 0 5px;
+        
+    }
+    .text-area{
+        font-size: 18px;
+    }
+    #title{
+        font-size: 15px;
+    }
+    blockquote{
+        font-size: 20px;
+    }
+    #tribute-link{
+    font-size: 20px;
+}
+}
+@media (max-width:600px) {
+    nav span{
+        font-size: 17px;
+        padding: 20px 25px;
+        margin: 0 5px;
+        
+    }
+}
+@media (max-width:525px) {
+    body{
+        font-size: 17px;
+    }
+    nav span{
+        font-size: 14px;
+        padding: 20px 20px;
+        margin: 0 5px;
+        
+    }
+    .text-area{
+        font-size: 15px;
+    }
+    #title{
+        font-size: 12px;
+    }
+    blockquote{
+        font-size: 18px;
+    }
+    
+}
+@media (max-width:435px) {
+    nav span{
+        font-size: 12px;
+        padding: 20px 15px;
+        margin: 0 5px;
+        
+    }
+}
+@media (max-width:370px) {
+    body{
+        font-size: 16px;
+    }
+    nav span{
+        font-size: 12px;
+        padding: 20px 12px;
+        margin: 0 5px;
+
+        
+    }
+    .text-area,{
+        font-size: 12px;
+    }
+    #title{
+        font-size: 10px;
+    }
+    blockquote{
+        font-size: 16px;
+    }
+    #tribute-link{
+    font-size: 17px;
+}
+}
+@media (max-width:350px) {
+    nav span{
+        font-size: 10px;
+        padding: 20px 10px;
+        margin: 0 5px;
+        
+    }
